@@ -35,6 +35,7 @@ Este é um projeto de uma porta que abre automaticamente quando detecta a presen
    - Realize leituras do sensor ultrassônico para medir a distância entre o sensor e o objeto.
    - Quando o sensor detectar a presença de alguém a uma distância configurada, acione o servo motor para abrir a porta.
    - Calibre o servo motor para a abertura correta da porta e defina os ângulos corretos no código.
+   - Utilize as seguintes bibliotecas: ESP32Servo; ArduinoJson; EspMQTTClient.
 
 ## Teste
 
