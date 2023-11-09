@@ -11,7 +11,6 @@ Este é um projeto de uma porta que abre automaticamente quando detecta a presen
 - Placa de prototipagem
 - Fonte de alimentação
 - Jumpers e fios
-- Ferramentas de solda (se necessário)
 
 ## Montagem do Hardware
 
@@ -26,7 +25,7 @@ Este é um projeto de uma porta que abre automaticamente quando detecta a presen
    - Conecte o pino Echo do sensor ultrassônico ao pino GPIO do ESP32.
    - Conecte o pino Trigger do sensor ultrassônico a outro pino GPIO do ESP32.
 
-3. Alimente o ESP32 com uma fonte de alimentação apropriada.
+3. Alimente o ESP32 com uma fonte de alimentação apropriada. No projeto foi utilizado um computador.
 
 ## Programação
 
@@ -43,6 +42,6 @@ Este é um projeto de uma porta que abre automaticamente quando detecta a presen
 - Ajuste o código conforme necessário para garantir um funcionamento suave e confiável.
 
 ## Integração
-
+O projeto foi integrado via Tago.io utilizando assim a internet das coisas(IOT). Com ajuda dessa plataforma foi possivel verificar de qualquer lugar se o sensor estava aberto ou fechado.
 
 
