@@ -62,7 +62,7 @@ void loop()
     delayMicroseconds(10);
 
     duracao = pulseIn(echoPin, HIGH);
-    // EQUAÇÃO
+   
     dist = (duracao * 0.034) / 2;
 
     servo.attach(12);
