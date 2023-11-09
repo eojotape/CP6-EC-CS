@@ -12,7 +12,7 @@ float dist;
 Servo servo;
 
 EspMQTTClient client{
-    "SEU WIFI",                             // SSID do WiFi
+    "!SEU WIFI!",                             // SSID do WiFi
     "!SUA SENHA!",                          // Senha do wifi
     "mqtt.tago.io",                         // Endereço do servidor
     "Default",                              // Usuario
